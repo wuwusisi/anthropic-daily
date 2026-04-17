@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fafafa;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 24px;
+}
+
+.article-item {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 14px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.article-header:hover {
+    background: #f5f5f5;
+}
+
+.toggle-icon {
+    flex-shrink: 0;
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 3px;
+    transition: transform 0.2s;
+}
+
+.article-item.open .toggle-icon {
+    transform: rotate(90deg);
+}
+
+.article-body {
+    flex: 1;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #e8f4f8;
+    color: #0a7e8c;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.article-title {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.article-brief {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.article-detail {
+    display: none;
+    padding: 0 16px 14px 42px;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.7;
+}
+
+.article-item.open .article-detail {
+    display: block;
+}
+
+.article-detail a {
+    color: #0a7e8c;
+    text-decoration: none;
+}
+
+.article-detail a:hover {
+    text-decoration: underline;
+}
+
+.original-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.85em;
+}
+
+.errors {
+    margin-top: 20px;
+    padding: 12px 16px;
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    border-radius: 8px;
+    font-size: 0.85em;
+    color: #8d6e00;
+}
+
+.archive {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #e8e8e8;
+    font-size: 0.9em;
+}
+
+.archive a {
+    color: #0a7e8c;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.date-list {
+    list-style: none;
+}
+
+.date-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.date-list a {
+    color: #0a7e8c;
+    text-decoration: none;
+    font-size: 1.05em;
+}
