@@ -44,3 +44,45 @@ def test_anthropic_news_handles_failure(mock_get):
 
     assert articles == []
     assert collector.error is not None
+
+
+from src.collectors.github_org import GitHubOrgCollector
+
+SAMPLE_RELEASES = [
+    {
+        "tag_name": "v1.0.0",
+        "name": "Claude Code v1.0.0",
+        "html_url": "https://github.com/anthropics/claude-code/releases/tag/v1.0.0",
+        "body": "New release with features",
+        "published_at": "2026-04-15T00:00:00Z",
+    }
+]
+
+SAMPLE_REPOS = [
+    {
+        "name": "new-tool",
+        "html_url": "https://github.com/anthropics/new-tool",
+        "description": "A new Anthropic tool",
+        "created_at": "2026-04-15T00:00:00Z",
+        "pushed_at": "2026-04-15T12:00:00Z",
+    }
+]
+
+
+@patch("src.collectors.github_org.requests.get")
+def test_github_org_collects_releases(mock_get):
+    mock_resp_releases = Mock()
+    mock_resp_releases.status_code = 200
+    mock_resp_releases.json.return_value = SAMPLE_RELEASES
+
+    mock_resp_repos = Mock()
+    mock_resp_repos.status_code = 200
+    mock_resp_repos.json.return_value = SAMPLE_REPOS
+
+    mock_get.side_effect = [mock_resp_repos, mock_resp_releases]
+
+    collector = GitHubOrgCollector()
+    articles = collector.collect()
+
+    assert len(articles) >= 1
+    assert any("v1.0.0" in a.title for a in articles)
