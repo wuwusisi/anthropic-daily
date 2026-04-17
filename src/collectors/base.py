@@ -11,3 +11,15 @@ class Article:
     date: str = ""
     brief: str = ""
     detail: str = ""
+
+
+from abc import ABC, abstractmethod
+
+
+class BaseCollector(ABC):
+    def __init__(self):
+        self.error: str | None = None
+
+    @abstractmethod
+    def collect(self) -> list[Article]:
+        pass
