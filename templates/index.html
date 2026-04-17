@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Anthropic Daily</h1>
+    <div class="subtitle">Anthropic 资讯日报归档</div>
+
+    <ul class="date-list">
+        {% for date in dates %}
+        <li><a href="{{ date.replace('-', '/') }}">{{ date }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

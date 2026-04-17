@@ -6,7 +6,7 @@ class Article:
     title: str
     url: str
     source: str
-    content: str
+    content: str = ""
     tag: str = ""
     date: str = ""
     brief: str = ""
