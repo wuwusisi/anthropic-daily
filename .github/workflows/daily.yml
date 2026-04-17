@@ -1,0 +1,65 @@
+name: Anthropic Daily
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # UTC 4:00 = Beijing 12:00
+  workflow_dispatch:       # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Checkout gh-pages output
+        run: |
+          git fetch origin gh-pages || true
+          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
+            git worktree add output origin/gh-pages
+          else
+            mkdir -p output
+          fi
+
+      - name: Run collector
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_USER_ID: ${{ secrets.FEISHU_USER_ID }}
+          GITHUB_PAGES_BASE: "https://wuwusisi.github.io/anthropic-daily"
+          OUTPUT_DIR: output
+          DATA_DIR: data
+          PYTHONPATH: .
+        run: python3 src/main.py
+
+      - name: Commit seen.json to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json
+          git diff --staged --quiet || git commit -m "data: update seen.json [skip ci]"
+          git push origin main
+
+      - name: Deploy to gh-pages
+        run: |
+          cd output
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "deploy: daily update $(date -u +%Y-%m-%d)"
+          git push origin HEAD:gh-pages
