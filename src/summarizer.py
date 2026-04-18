@@ -1,4 +1,5 @@
 import json
+import re
 import requests
 from src.collectors.base import Article
 
@@ -16,7 +17,7 @@ PROMPT_TEMPLATE = """你是一个 AI 行业资讯编辑。请根据以下文章�
 class Summarizer:
     API_URL = "https://api.minimax.chat/v1/text/chatcompletion_v2"
 
-    def __init__(self, api_key: str, model: str = "MiniMax-Text-01"):
+    def __init__(self, api_key: str, model: str = "MiniMax-M2.7"):
         self.api_key = api_key
         self.model = model
 
@@ -42,6 +43,10 @@ class Summarizer:
             resp.raise_for_status()
             data = resp.json()
             content = data["choices"][0]["message"]["content"]
+            # Strip markdown code block if present
+            match = re.search(r"```(?:json)?\s*(.*?)\s*```", content, re.DOTALL)
+            if match:
+                content = match.group(1)
             result = json.loads(content)
             article.brief = result.get("brief", article.title)
             article.detail = result.get("detail", article.content[:200])
