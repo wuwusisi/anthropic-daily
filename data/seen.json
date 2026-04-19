@@ -92,5 +92,6 @@
   "https://github.com/anthropics/claude-code-base-action/releases/tag/v0.0.62": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.114": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.113": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.112": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.112": true,
+  "https://github.com/anthropics/claude-plugins-community": true
 }
