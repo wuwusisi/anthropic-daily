@@ -35,12 +35,6 @@ def run(
         if collector.error:
             errors.append(collector_cls.__name__)
 
-    # Filter out low-quality items (title too short or title is just a date)
-    all_articles = [
-        a for a in all_articles
-        if len(a.title) > 15 or len(a.content) > 50
-    ]
-
     # 2. Filter new articles
     seen_path = os.path.join(data_dir, "seen.json")
     store = SeenStore(seen_path)
@@ -53,9 +47,17 @@ def run(
 
     print(f"[{today}] Found {len(new_articles)} new articles.")
 
-    # 3. Summarize
+    # 3. Generate integrated digest
     summarizer = Summarizer(api_key=minimax_key)
-    summarizer.summarize_batch(new_articles)
+    digest = summarizer.generate_digest(new_articles)
+
+    if not digest or not digest.get("sections"):
+        print(f"[{today}] Digest generation failed or empty. Skipping.")
+        store.mark_seen(new_articles)
+        store.save()
+        return False
+
+    print(f"[{today}] Digest generated with {len(digest.get('sections', []))} sections.")
 
     # 4. Render HTML
     renderer = Renderer(output_dir=output_dir)
@@ -63,7 +65,7 @@ def run(
     existing_dates = _find_existing_dates(output_dir)
     recent_dates = sorted(existing_dates, reverse=True)[:7]
 
-    renderer.render_daily(today, new_articles, errors=errors, recent_dates=recent_dates)
+    renderer.render_daily(today, digest=digest, errors=errors, recent_dates=recent_dates)
     renderer.render_index(sorted(existing_dates + [today], reverse=True))
     renderer.copy_static()
 
@@ -80,7 +82,7 @@ def run(
         app_secret=feishu_app_secret,
         user_open_id=feishu_user_id,
     )
-    sent = notifier.send(today, len(new_articles), daily_url)
+    sent = notifier.send(today, len(digest.get("sections", [])), daily_url)
     if sent:
         print(f"Feishu notification sent.")
     else:

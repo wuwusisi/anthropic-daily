@@ -8,24 +8,28 @@
 </head>
 <body>
     <h1>Anthropic Daily · {{ date }}</h1>
-    <div class="subtitle">共 {{ articles|length }} 条更新</div>
 
-    {% for article in articles %}
-    <div class="article-item" onclick="this.classList.toggle('open')">
-        <div class="article-header">
-            <span class="toggle-icon">&#9654;</span>
-            <div class="article-body">
-                <span class="tag">{{ article.tag }}</span>
-                <div class="article-title">{{ article.title }}</div>
-                <div class="article-brief">{{ article.brief }}</div>
-            </div>
+    {% if digest and digest.summary %}
+    <div class="summary">{{ digest.summary }}</div>
+    {% endif %}
+
+    {% if digest and digest.sections %}
+    {% for section in digest.sections %}
+    <div class="section">
+        <h2>{{ section.title }}</h2>
+        <div class="section-content">{{ section.content }}</div>
+        {% if section.links %}
+        <div class="source-links">
+            {% for link in section.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
+            {% endfor %}
         </div>
-        <div class="article-detail">
-            <p>{{ article.detail }}</p>
-            <a href="{{ article.url }}" target="_blank" rel="noopener" class="original-link">&#128279; 查看原文</a>
-        </div>
+        {% endif %}
     </div>
     {% endfor %}
+    {% else %}
+    <div class="empty">今日暂无 Anthropic 相关更新。</div>
+    {% endif %}
 
     {% if errors %}
     <div class="errors">

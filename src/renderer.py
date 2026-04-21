@@ -16,7 +16,7 @@ class Renderer:
     def render_daily(
         self,
         date: str,
-        articles: List[Article],
+        digest: dict = None,
         errors: Optional[List[str]] = None,
         recent_dates: Optional[List[str]] = None,
     ) -> str:
@@ -30,7 +30,7 @@ class Renderer:
         template = self.env.get_template("daily.html")
         html = template.render(
             date=date,
-            articles=articles,
+            digest=digest or {},
             errors=errors or [],
             recent_dates=recent_dates or [],
             css_path=css_path,
