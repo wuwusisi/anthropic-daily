@@ -4,11 +4,12 @@ import requests
 from src.collectors.base import Article
 
 PROMPT_TEMPLATE = """你是一个 AI 行业资讯编辑。请根据以下文章内容生成：
-1. brief: 一句话摘要（不超过 50 字）
-2. detail: 详细摘要（3-5 句，提炼核心观点和关键信息）
+1. title_zh: 中文标题（简洁准确，不超过 30 字）
+2. brief: 一句话中文摘要（不超过 50 字）
+3. detail: 详细中文摘要（3-5 句，提炼核心观点和关键信息）
 
-要求：中文输出，专业术语保留英文原文（如 Constitutional AI、Tool Use）。
-输出 JSON 格式：{{"brief": "...", "detail": "..."}}
+要求：全部中文输出，专业术语保留英文原文（如 Constitutional AI、Tool Use）。
+输出 JSON 格式：{{"title_zh": "...", "brief": "...", "detail": "..."}}
 
 文章标题：{title}
 文章内容：{content}"""
@@ -48,6 +49,8 @@ class Summarizer:
             if match:
                 content = match.group(1)
             result = json.loads(content)
+            if result.get("title_zh"):
+                article.title = result["title_zh"]
             article.brief = result.get("brief", article.title)
             article.detail = result.get("detail", article.content[:200])
         except Exception:

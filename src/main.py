@@ -35,6 +35,12 @@ def run(
         if collector.error:
             errors.append(collector_cls.__name__)
 
+    # Filter out low-quality items (title too short or title is just a date)
+    all_articles = [
+        a for a in all_articles
+        if len(a.title) > 15 or len(a.content) > 50
+    ]
+
     # 2. Filter new articles
     seen_path = os.path.join(data_dir, "seen.json")
     store = SeenStore(seen_path)
