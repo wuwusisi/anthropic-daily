@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthropic Daily · {{ date }}</title>
     <link rel="stylesheet" href="{{ css_path }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <h1>Anthropic Daily · {{ date }}</h1>
@@ -36,6 +37,12 @@
         &#9888;&#65039; 本次未能获取: {{ errors | join(", ") }}
     </div>
     {% endif %}
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
 
     {% if recent_dates %}
     <div class="archive">
