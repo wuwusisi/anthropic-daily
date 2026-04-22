@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-04-22</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-04-22</h1>
+
+    
+    <div class="summary">Anthropic 今日重点：Claude Haiku 3 正式停用，建议升级至 Haiku 4.5；Claude Code Action v1.0 正式发布，简化 CI/CD 集成；Claude Code v2.1.116+ 新增 forked subagent 与性能优化；Dario Amodei 发布系列文章强调可解释性研究与 AI 治理。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>产品更新</h2>
+        <div class="section-content">**Claude Haiku 3 模型正式停用**：Anthropic 于 2026 年 4 月 20 日正式退役 Claude Haiku 3（claude-3-haiku-20240307），所有调用该模型的请求将返回错误。官方建议开发者尽快迁移至 **Claude Haiku 4.5**，以获得更好的性能和功能支持。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank" rel="noopener">Claude Platform Release Notes</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>开发者工具</h2>
+        <div class="section-content">Anthropic 今日发布/更新了多个开发者工具仓库，重点包括：
+
+**新版 Claude Code Action (v1.0) 正式发布**：该 GitHub Action 引入自动模式检测功能，无需手动配置 mode 参数，智能识别交互式或自动化运行环境。新增工作流语法验证、改进的错误处理和安全加固，支持在 CI/CD 流水线中无缝集成 AI 辅助开发。
+
+**Claude Code v2.1.116-v2.1.117 主要更新**：
+- 新增 forked subagent 支持（通过 `CLAUDE_CODE_FORK_SUBAGENT=1` 启用）
+- `/resume` 命令在大型会话场景下提速达 67%
+- MCP 服务器启动优化，多 stdio 服务器配置场景更高效
+- Agent frontmatter `mcpServers` 现已支持主线程 agent 会话
+- 模型选择持久化改进，项目 pin 设置更加灵活
+
+**Claude Agent SDK 更新**：
+- Python SDK v0.1.64 新增完整 SessionStore 支持，包含 5 个核心方法（append、load、list_sessions、delete、list_subkeys）及内存实现，新增 9 个异步存储辅助函数，支持会话镜像和恢复功能
+- TypeScript SDK 同步更新至 v0.2.117/116/114，与 Claude Code 保持版本对齐
+
+**新仓库发布**：Claude Cookbooks（使用指南）、Claude Plugins Official（官方插件目录）、Knowledge Work Plugins（知识工作者插件集）等开发者资源库陆续上线。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.117" target="_blank" rel="noopener">Claude Code v2.1.117</a>
+            
+            <a href="https://github.com/anthropics/claude-code-action/releases/tag/v1" target="_blank" rel="noopener">Claude Code GitHub Action v1.0</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64" target="_blank" rel="noopener">Claude Agent SDK Python v0.1.64</a>
+            
+            <a href="https://github.com/anthropics/claude-cookbooks" target="_blank" rel="noopener">Claude Cookbooks</a>
+            
+            <a href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">Claude Plugins Official</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>AI 安全与对齐研究</h2>
+        <div class="section-content">**Activation Oracles**：Anthropic 发布新研究项目，探索训练语言模型用自然语言回答关于自身激活（activations）的问题。这一方向有助于提升模型的可解释性（Interpretability），让研究者更好地理解模型内部运作机制。
+
+**Automated Auditing**：探讨使用 AI agents 执行自动化对齐审计（Alignment Audits）的方法，涵盖可解释性工具在审计流程中的应用，为 AI 安全评估提供新思路。
+
+**PySvelte**：Anthropic 开源基础设施工具，用于桥接 Python 与基于 Web 的交互式图表，辅助可解释性研究中的可视化工作。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://alignment.anthropic.com/2025/activation-oracles/" target="_blank" rel="noopener">Activation Oracles</a>
+            
+            <a href="https://alignment.anthropic.com/2025/automated-auditing/" target="_blank" rel="noopener">Automated Auditing</a>
+            
+            <a href="https://github.com/anthropics/PySvelte" target="_blank" rel="noopener">PySvelte</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>行业观点与媒体动态</h2>
+        <div class="section-content">**Dario Amodei 发表多篇深度文章**：Anthropic CEO Dario Amodei 近期在个人博客发布系列文章，涵盖：
+- 《The Adolescence of Technology》——探讨技术发展的青春期阶段
+- 《Machines of Loving Grace》——论 AI 与人类价值观对齐
+- 《The Urgency of Interpretability》——强调可解释性研究的紧迫性
+- 《On DeepSeek and Export Controls》——分析 DeepSeek 事件与出口管制政策
+
+**政策与监管观点**：Dario Amodei 在《纽约时报》发表署名文章《AI Needs Basic Transparency Rules》，呼吁建立 AI 基础透明性规则；在《华尔街日报》发表《Trump Can Keep America's AI Advantage》，阐述美国如何保持 AI 竞争优势。
+
+**媒体采访**：Dario Amodei 近期接受了 TIME 专访及多个播客节目采访，包括 Lex Fridman Podcast、The Ezra Klein Show、Dwarkesh Podcast 等，讨论 AI 发展、安全与治理等议题。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://www.darioamodei.com/essay/the-adolescence-of-technology" target="_blank" rel="noopener">The Adolescence of Technology</a>
+            
+            <a href="https://www.darioamodei.com/post/the-urgency-of-interpretability" target="_blank" rel="noopener">The Urgency of Interpretability</a>
+            
+            <a href="https://www.nytimes.com/2025/06/05/opinion/anthropic-ceo-regulate-transparency.html" target="_blank" rel="noopener">AI Needs Basic Transparency Rules (NYT)</a>
+            
+            <a href="https://time.com/6990386/anthropic-dario-amodei-interview/" target="_blank" rel="noopener">TIME Interview</a>
+            
+            <a href="https://www.youtube.com/watch?v=ugvHCXCOmm4" target="_blank" rel="noopener">Lex Fridman Podcast</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+        <a href="../../../2026/04/19">2026-04-19</a>
+        
+        <a href="../../../2026/04/18">2026-04-18</a>
+        
+        <a href="../../../2026/04/17">2026-04-17</a>
+        
+    </div>
+    
+</body>
+</html>
