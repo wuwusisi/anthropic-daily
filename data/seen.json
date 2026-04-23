@@ -88,5 +88,15 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.95.0": true,
-  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1": true
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1": true,
+  "https://github.com/anthropics/anthropic-sdk-php": true,
+  "https://github.com/anthropics/buffa": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.16.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.15.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.14.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.3.0": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.2.0": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.1.0": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.118": true
 }
