@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-04-23</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-04-23</h1>
+
+    
+    <div class="summary">Claude Code 新增 Vim 模式与 Theme 系统提升开发者体验；SDK 中出现 claude-opus-4-7 信号暗示新模型筹备；Vertex EU Region 支持完善合作伙伴生态；PHP SDK 正式发布扩展语言覆盖。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>Claude Code 桌面应用更新</h2>
+        <div class="section-content">Claude Code v2.1.118 带来多项用户体验改进：
+
+- **Vim 模式支持**：新增 visual mode (`v`) 和 visual-line mode (`V`)，支持选择、运算符和视觉反馈，提升命令行使用效率
+- **Usage 整合**：`/cost` 和 `/stats` 合并为 `/usage`，同时保留快捷入口
+- **Theme 系统**：可通过 `/theme` 创建、切换自定义主题，或直接编辑 `~/.claude/themes/` 下的 JSON 文件，插件也可通过 `themes/` 目录分发主题
+- **MCP Tools Hooks**：Hooks 现可直接调用 MCP 工具 (`type: "mcp_tool"`)
+
+**这意味着什么**：Vim 模式对习惯终端操作的开发者是重要效率提升；Theme 系统为团队定制化 Claude Code 体验提供了可能性；MCP Tools Hooks 则让 Claude Code 与外部工具的集成更加灵活。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.118" target="_blank" rel="noopener">claude-code v2.1.118 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Claude Opus 4.7 模型与 SDK 功能更新</h2>
+        <div class="section-content">**新模型信号**：anthropic-sdk-php v0.16.0 代码中新增 `claude-opus-4-7`，暗示 Anthropic 可能在筹备 Opus 4.7 版本。
+
+**SDK 功能增强**：
+- **Token Budgets**：支持 token 预算管理，便于成本控制
+- **User Profiles**：新增用户画像功能，支持个性化配置
+
+**这意味着什么**：Token Budgets 功能可帮助企业用户更精细地控制 API 调用成本；User Profiles 为多用户场景（如 B2B SaaS）提供了更好的支持。这些能力可能预示着 Anthropic 将在 API 层面试图满足企业级需求。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.16.0" target="_blank" rel="noopener">anthropic-sdk-php v0.16.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>合作伙伴生态扩展</h2>
+        <div class="section-content">anthropic-sdk-php v0.14.0 正式支持 **Vertex EU Region**（欧洲区域），此前仅支持其他区域。
+
+**这意味着什么**：对于在欧洲有业务或数据合规要求的用户（如 GDPR 场景），Vertex EU 支持意味着可以在本地区域调用 Claude，提升数据主权和合规性，同时可能降低延迟。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.14.0" target="_blank" rel="noopener">anthropic-sdk-php v0.14.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>开发者工具链更新</h2>
+        <div class="section-content">多项基础设施更新：
+
+- **claude-code-action v1.0.104**：CI/CD 集成动作更新
+- **anthropic-sdk-php v0.15.0**：Bedrock 认证头优化，upload methods 启用
+- **buffa v0.1.0~v0.3.0**：Rust protobuf 库持续迭代，新增完整 protobuf 扩展支持、source comment 保留等能力
+- **anthropic-sdk-php 新仓库**：官方 PHP SDK 正式发布，降低 PHP 开发者接入门槛
+
+**这意味着什么**：PHP SDK 的正式发布扩展了 Claude 的语言生态覆盖；buffa 作为内部基础设施的现代化升级，长期来看有助于提升 Anthropic 服务的性能和可维护性。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php" target="_blank" rel="noopener">anthropic-sdk-php</a>
+            
+            <a href="https://github.com/anthropics/buffa/releases/tag/v0.3.0" target="_blank" rel="noopener">buffa v0.3.0</a>
+            
+            <a href="https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104" target="_blank" rel="noopener">claude-code-action v1.0.104</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/22">2026-04-22</a>
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+        <a href="../../../2026/04/19">2026-04-19</a>
+        
+        <a href="../../../2026/04/18">2026-04-18</a>
+        
+        <a href="../../../2026/04/17">2026-04-17</a>
+        
+    </div>
+    
+</body>
+</html>
