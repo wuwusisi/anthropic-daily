@@ -98,5 +98,17 @@
   "https://github.com/anthropics/buffa/releases/tag/v0.3.0": true,
   "https://github.com/anthropics/buffa/releases/tag/v0.2.0": true,
   "https://github.com/anthropics/buffa/releases/tag/v0.1.0": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.118": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.118": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.6.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.17.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.2": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.36.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.17.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.27.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0": true
 }
