@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-04-24</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-04-24</h1>
+
+    
+    <div class="summary">Anthropic 全系 SDK 同步上线 CMA Memory 公测版，支持 Agent 持久化记忆能力；C# SDK 新增 Prompt Caching，CLI 工具增强交互体验。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>🧠 SDK 核心功能更新：CMA Memory 公测上线</h2>
+        <div class="section-content">**Anthropic 宣布 Contextual Memory Augmentation (CMA) Memory 功能进入 public beta 阶段**，并同步更新至所有主流 SDK：
+
+- **Python SDK** v0.97.0
+- **TypeScript SDK** sdk-v0.91.0
+- **Java SDK** v2.27.0
+- **Go SDK** v1.38.0
+- **Ruby SDK** v1.36.0
+- **PHP SDK** v0.17.0
+- **C# SDK** v12.17.0 (Bedrock-v0.6.0)
+
+**这意味着什么**：CMA Memory 是 Anthropic 在 Agent 持久化记忆能力上的重要布局，支持开发者构建具备长期上下文保持能力的 AI 应用。对于产品经理而言，这意味着可以规划更复杂的 Agent 产品场景，如个人助理、持续对话机器人等，无需用户每次都重复提供背景信息。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0" target="_blank" rel="noopener">anthropic-sdk-python v0.97.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0" target="_blank" rel="noopener">anthropic-sdk-typescript sdk-v0.91.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.27.0" target="_blank" rel="noopener">anthropic-sdk-java v2.27.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0" target="_blank" rel="noopener">anthropic-sdk-go v1.38.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.36.0" target="_blank" rel="noopener">anthropic-sdk-ruby v1.36.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.17.0" target="_blank" rel="noopener">anthropic-sdk-php v0.17.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.17.0" target="_blank" rel="noopener">anthropic-sdk-csharp Anthropic-v12.17.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>💻 C# SDK 新增 Prompt Caching 支持</h2>
+        <div class="section-content">C# SDK v12.17.0 新增 **Prompt Caching 功能**，通过 `WithCacheControl` 扩展方法集成到 Microsoft.Extensions.AI。
+
+**这意味着什么**：Prompt Caching 可以显著降低重复调用时的延迟和 Token 消耗。适用于有多轮相似上下文的企业级应用，产品经理可据此评估在高频调用场景下的成本优化空间。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.17.0" target="_blank" rel="noopener">anthropic-sdk-csharp Anthropic-v12.17.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>🔧 CLI 工具持续迭代</h2>
+        <div class="section-content">**anthropic-cli** 密集发布三个版本（v1.3.0 → v1.3.1 → v1.3.2），主要更新包括：
+
+- 新增 `--raw-output` / `-r` 选项，支持直接输出非 JSON 格式字符串
+- 默认模式切换为 **interactive explore**
+- 同步支持 CMA Memory public beta
+
+**这意味着什么**：CLI 工具的完善降低了开发者的调试成本，interactive explore 模式提升了本地测试体验。产品经理在向工程团队推广 Anthropic API 时，可关注 CLI 作为快速原型验证工具的价值。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.0" target="_blank" rel="noopener">anthropic-cli v1.3.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.1" target="_blank" rel="noopener">anthropic-cli v1.3.1</a>
+            
+            <a href="https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.2" target="_blank" rel="noopener">anthropic-cli v1.3.2</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>🔐 开发者体验优化</h2>
+        <div class="section-content">- **Go SDK** v1.38.0：为 API errors 新增 `Type()` 方法，便于开发者识别错误类型
+- **TypeScript SDK** Bedrock 模块 v0.29.0：为 Mantle client 添加 auth header 支持
+- **Ruby / PHP / Java SDK**：修复 API spec 错误并恢复缺失功能
+
+**这意味着什么**：错误处理标准化有助于构建更健壮的 AI 应用。TypeScript Bedrock 集成的改进表明 Anthropic 持续深化 AWS 生态合作。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0" target="_blank" rel="noopener">anthropic-sdk-go v1.38.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0" target="_blank" rel="noopener">anthropic-sdk-typescript bedrock-sdk-v0.29.0</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/23">2026-04-23</a>
+        
+        <a href="../../../2026/04/22">2026-04-22</a>
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+        <a href="../../../2026/04/19">2026-04-19</a>
+        
+        <a href="../../../2026/04/18">2026-04-18</a>
+        
+        <a href="../../../2026/04/17">2026-04-17</a>
+        
+    </div>
+    
+</body>
+</html>
