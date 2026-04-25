@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-04-25</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-04-25</h1>
+
+    
+    <div class="summary">Anthropic 今日更新聚焦开发者体验：Claude Code 增强配置持久化和多平台 PR 支持，Agent SDK 修复 Trio 兼容性并改进长会话稳定性，Rust 生态工具链持续完善。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>开发者工具链更新</h2>
+        <div class="section-content">**Claude Code v2.1.119** 带来多项实用改进：
+- `/config` 设置（主题、编辑器模式、verbose 等）现在持久化到 `~/.claude/settings.json`，支持项目级、本地级、策略级覆盖优先级
+- 新增 `prUrlTemplate` 设置，支持自定义 PR badge 指向的代码审查 URL（可对接内部工具）
+- 新增 `CLAUDE_CODE_HIDE_CWD` 环境变量，可在启动 Logo 中隐藏工作目录
+- `--from-pr` 参数现在支持 GitLab merge-request 和 Bitbucket pull-request URL
+
+**这意味着什么**：对于在 CI/CD 流程中集成 Claude Code 的团队，这些改进提升了配置管理的灵活性和工具的适配性。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.119" target="_blank" rel="noopener">claude-code v2.1.119 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Agent SDK 更新</h2>
+        <div class="section-content">**claude-agent-sdk-typescript v0.2.119** 改进长会话稳定性：
+- MCP 服务器重连机制增强，断连后可自动恢复
+- `SessionStore.append()` 失败时自动重试 3 次，降低数据丢失风险
+
+**claude-agent-sdk-typescript v0.2.118** 新增企业级功能：
+- 新增 `Options.managedSettings` 选项，支持嵌入方传递策略层级的配置
+
+**claude-agent-sdk-python v0.1.67** 修复重要兼容性问题：
+- 恢复了对 Trio 异步框架的兼容支持，解决了 v0.1.51 引入的回归问题
+
+**这意味着什么**：这些修复和增强主要面向构建 AI Agent 应用的开发者，特别是需要长时运行、复杂异步处理或企业级策略管控的场景。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.119" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.119</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.118</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.67" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.67</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>基础设施与协议库</h2>
+        <div class="section-content">Anthropic 今日开源了 **tokio**（Rust 异步运行时仓库）和 **connect-rust**（ConnectRPC 协议 Rust 实现），后者迎来 v0.3.3 版本更新：
+- 新增 streaming-tour 和 middleware 使用示例
+- 上线用户指南和 adoption 帮助文档
+- 完善 CI 流程，切换到 arduino/setup-protoc action
+
+**这意味着什么**：Anthropic 持续投入 Rust 生态建设，为需要高性能、低延迟 AI 应用的开发者提供更完善的底层基础设施。ConnectRPC 作为与 gRPC 兼容的协议选择，其文档完善降低了接入门槛。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/tokio" target="_blank" rel="noopener">tokio 仓库</a>
+            
+            <a href="https://github.com/anthropics/connect-rust/releases/tag/v0.3.3" target="_blank" rel="noopener">connect-rust v0.3.3</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>模型 System Prompt 更新</h2>
+        <div class="section-content">Claude Opus 4.5、Claude Haiku 4.5、Claude Sonnet 4.5 均于 2026 年 1 月 18 日更新了 System Prompt。这是新年以来的首次系统性更新，具体变更内容需参考官方 Release Notes。
+
+**这意味着什么**：System Prompt 的调整可能影响模型在特定任务场景下的行为表现，建议开发者关注后续官方说明。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://docs.anthropic.com/en/release-notes/system-prompts#sp-4a5e1f41" target="_blank" rel="noopener">System Prompt Release Notes</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/24">2026-04-24</a>
+        
+        <a href="../../../2026/04/23">2026-04-23</a>
+        
+        <a href="../../../2026/04/22">2026-04-22</a>
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+        <a href="../../../2026/04/19">2026-04-19</a>
+        
+        <a href="../../../2026/04/18">2026-04-18</a>
+        
+        <a href="../../../2026/04/17">2026-04-17</a>
+        
+    </div>
+    
+</body>
+</html>
