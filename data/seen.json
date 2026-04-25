@@ -110,5 +110,20 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0": true,
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.27.0": true,
-  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0": true
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-4a5e1f41": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-02d6faef": true,
+  "https://github.com/anthropics/tokio": true,
+  "https://github.com/anthropics/connect-rust": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.68": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.67": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.66": true,
+  "https://github.com/anthropics/connect-rust/releases/tag/v0.3.3": true,
+  "https://github.com/anthropics/connect-rust/releases/tag/v0.3.2": true,
+  "https://github.com/anthropics/connect-rust/releases/tag/v0.3.1": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.107": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.106": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.119": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.119": true
 }
