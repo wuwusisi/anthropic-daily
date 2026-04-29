@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-04-29</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-04-29</h1>
+
+    
+    <div class="summary">Anthropic 更新 Python Agent SDK，新增沙箱网络白名单配置能力，提升 Agent 应用安全控制的灵活性。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>开发者工具与 SDK 更新</h2>
+        <div class="section-content">**Anthropic 发布了多个 SDK 版本更新，主要集中于 Python Agent SDK 和相关工具的维护增强：**
+
+- **claude-agent-sdk-python v0.1.71** 新增 `SandboxNetworkConfig` 的网络白名单配置字段（`allowedDomains`、`deniedDomains`、`allowManagedDomainsOnly`、`allowMachLookup`），与 TypeScript SDK 达成一致。这意味着开发者可以更精细地控制 AI Agent 沙箱环境的网络访问策略，提升应用安全性。
+
+- **claude-agent-sdk-python v0.1.70** 修复了旧版 `mcp` 依赖（<1.19.0）下 MCP 工具结果丢失的问题，以及 trio nursery 早期取消时的运行时错误，提升 SDK 稳定性。
+
+- **anthropic-sdk-php v0.17.1** 回退了导致枚举解析失败的变更，恢复正常功能。
+
+**这意味着什么：** 这些更新表明 Anthropic 正在持续完善 Agent 开发工具链，特别是沙箱安全配置能力。对于正在构建 AI Agent 应用的团队，建议关注版本更新以获得更稳定的开发体验。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.71" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.71 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.70" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.70 Release</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.17.1" target="_blank" rel="noopener">anthropic-sdk-php v0.17.1 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/25">2026-04-25</a>
+        
+        <a href="../../../2026/04/24">2026-04-24</a>
+        
+        <a href="../../../2026/04/23">2026-04-23</a>
+        
+        <a href="../../../2026/04/22">2026-04-22</a>
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+        <a href="../../../2026/04/19">2026-04-19</a>
+        
+        <a href="../../../2026/04/18">2026-04-18</a>
+        
+    </div>
+    
+</body>
+</html>
