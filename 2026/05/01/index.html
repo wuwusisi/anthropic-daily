@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-01</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-01</h1>
+
+    
+    <div class="summary">Anthropic 今日聚焦 Claude Code 开发者体验：新增多模型网关支持、Bedrock 服务层级选择、项目状态清理等能力，SDK 新增 origin 字段增强消息溯源能力。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>Claude Code 产品更新</h2>
+        <div class="section-content">**Claude Code v2.1.126** 发布，包含以下面向开发者体验的改进：
+
+- **多模型网关支持**：模型选择器（`/model` picker）现在可以从指向 Anthropic 兼容网关的 `ANTHROPIC_BASE_URL` 获取可用模型列表。这意味着企业可以更灵活地接入自建模型或第三方兼容模型。
+- **项目状态清理**：新增 `claude project purge [path]` 命令，支持 `--dry-run`（预览）、`-y/--yes`（跳过确认）、`-i/--interactive`（交互式选择）和 `--all` 参数，可一键清除项目的所有状态文件（transcripts、tasks、file history、config entry），降低清理成本。
+- **权限绕过扩展**： `--dangerously-skip-permissions` 选项现在可绕过 `.claude/`、`.git/`、`.vscode/` 及 shell 配置文件写入时的确认提示，提升自动化场景的流畅度。
+
+**v2.1.123** 修复了禁用实验性 beta 时 OAuth 认证出现的 401 重试循环问题，提升稳定性。
+
+**v2.1.122** 的核心更新：
+- **Bedrock 服务层级选择**：新增 `ANTHROPIC_BEDROCK_SERVICE_TIER` 环境变量，支持 `default`、`flex`、`priority` 三种层级，通过 `X-Amzn-Bedrock-Service-Tier` header 传递。这为 AWS Bedrock 用户提供了更细粒度的性能/成本控制选项。
+- **PR 会话追踪**：将 PR URL 粘贴到 `/resume` 搜索框，现在可以找到创建该 PR 的原始会话，支持 GitHub、GitHub Enterprise、GitLab 和 Bitbucket，提升工作流连续性。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.126" target="_blank" rel="noopener">claude-code v2.1.126 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.123" target="_blank" rel="noopener">claude-code v2.1.123 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.122" target="_blank" rel="noopener">claude-code v2.1.122 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>SDK 与开发者工具链更新</h2>
+        <div class="section-content">**claude-agent-sdk-typescript v0.2.126** 新增 `origin` 字段到结果消息（`SDKResultSuccess` / `SDKResultError`），向前传递触发消息的 `SDKMessageOrigin`。这使得消费者可以区分**用户主动触发**的结果与**任务通知类自动跟进**的结果，对构建有状态的多轮交互系统（如监控面板、任务队列）有直接帮助。
+
+**Python SDK v0.1.72** 同步更新捆绑的 Claude CLI 至 v2.1.126，确保版本一致性。
+
+**claude-code-action v1.0.111** 发布（无重大变更说明）。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.126" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.126 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.72 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-code-action/releases/tag/v1.0.111" target="_blank" rel="noopener">claude-code-action v1.0.111 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+        <a href="../../../2026/04/29">2026-04-29</a>
+        
+        <a href="../../../2026/04/25">2026-04-25</a>
+        
+        <a href="../../../2026/04/24">2026-04-24</a>
+        
+        <a href="../../../2026/04/23">2026-04-23</a>
+        
+        <a href="../../../2026/04/22">2026-04-22</a>
+        
+        <a href="../../../2026/04/21">2026-04-21</a>
+        
+    </div>
+    
+</body>
+</html>
