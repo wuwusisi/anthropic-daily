@@ -144,5 +144,10 @@
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.111": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.126": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.123": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.122": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.122": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-0bb5a182": true,
+  "https://github.com/anthropics/skills": true,
+  "https://github.com/anthropics/s5cmd": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.92.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.1": true
 }
