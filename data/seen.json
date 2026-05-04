@@ -149,5 +149,8 @@
   "https://github.com/anthropics/skills": true,
   "https://github.com/anthropics/s5cmd": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.92.0": true,
-  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.1": true
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.1": true,
+  "https://github.com/anthropics/orjson": true,
+  "https://github.com/anthropics/orjson/releases/tag/v3.10.14-post4": true,
+  "https://github.com/anthropics/orjson/releases/tag/v3.10.14-post3": true
 }
