@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-05</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-05</h1>
+
+    
+    <div class="summary">Anthropic 今日聚焦企业级能力：多语言 SDK 统一引入 Workload Identity Federation 与 OAuth，简化多云部署的密钥管理；Python Agent SDK 新增实时会话写入能力，为监控和容灾场景铺路；Claude Code 工具链持续完善 MCP 集成与插件生态。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>多语言 SDK 更新：统一企业级身份认证能力</h2>
+        <div class="section-content">Anthropic 同步更新了 **C# SDK（Vertex/Foundry/Bedrock 三版本）** 和 **Java SDK**，新增以下企业级认证功能：
+
+- **Workload Identity Federation**：支持基于云平台工作负载的身份联合认证，无需管理静态 API Key
+- **Interactive OAuth**：交互式 OAuth 认证流程
+- **Auth Profiles**：支持配置多套认证配置文件，便于在不同环境间切换
+- **Managed Agents APIs 改进**（仅 Java SDK）：增强了托管 Agent 的 API 接口
+
+**这意味着什么**：企业开发者可以更安全、更便捷地在 Google Cloud（Vertex）、Oracle（Foundry）、AWS（Bedrock）等云平台上集成 Claude，减少密钥管理风险。Java SDK 的 Managed Agents API 改进也为构建复杂 Agent 系统提供了更好的基础设施。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.4.0" target="_blank" rel="noopener">anthropic-sdk-csharp Vertex-v0.4.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Foundry-v0.6.0" target="_blank" rel="noopener">anthropic-sdk-csharp Foundry-v0.6.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.7.0" target="_blank" rel="noopener">anthropic-sdk-csharp Bedrock-v0.7.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.28.0" target="_blank" rel="noopener">anthropic-sdk-java v2.28.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Python Agent SDK 新增实时会话能力</h2>
+        <div class="section-content">**claude-agent-sdk-python v0.1.73** 引入了 `session_store_flush` 选项：
+
+- 新增 `"eager"` 模式，SessionStore 可在推理过程中实时接收 transcript 帧，而非等待 turn 结束时批量写入
+
+**解锁的场景**：
+- **实时监控 UI**：可构建 live-tailing 类型的交互界面
+- **跨进程恢复**：支持在 Agent 运行中断后从任意位置恢复
+- **容灾能力**：崩溃时可保留更多中间状态
+
+**这意味着什么**：对于需要构建 Agent 监控面板、调试工具或高可用 Agent 应用的团队，这是重要的底层能力提升。Claude CLI 也同步更新至 v2.1.128。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.73" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.73</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Claude Code 桌面工具持续迭代</h2>
+        <div class="section-content">**claude-code v2.1.128** 带来多项开发者体验改进：
+
+- `/color` 命令可直接设置随机会话颜色
+- `/mcp` 新增显示已连接 MCP 服务器的工具数量，并标记「0 工具」的空连接
+- `--plugin-dir` 现支持 `.zip` 格式插件包（此前仅支持目录）
+- `--channels` 与 Console API Key 认证模式兼容（需组织开启 `channelsEnabled: true`）
+- 模型选择器 UI 优化：去重重复条目、当前 Opus 模型标识优化
+
+**claude-code-action v1.0.112** 修复了触发词匹配大小写不敏感的问题。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.128" target="_blank" rel="noopener">claude-code v2.1.128</a>
+            
+            <a href="https://github.com/anthropics/claude-code-action/releases/tag/v1.0.112" target="_blank" rel="noopener">claude-code-action v1.0.112</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+        <a href="../../../2026/04/29">2026-04-29</a>
+        
+        <a href="../../../2026/04/25">2026-04-25</a>
+        
+        <a href="../../../2026/04/24">2026-04-24</a>
+        
+        <a href="../../../2026/04/23">2026-04-23</a>
+        
+    </div>
+    
+</body>
+</html>
