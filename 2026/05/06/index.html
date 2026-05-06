@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-06</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-06</h1>
+
+    
+    <div class="summary">Anthropic 本周聚焦开发者体验：Claude Code 开放插件 URL 加载能力，CLI 和多语言 SDK 强化企业级认证（Workload Identity Federation、OIDC），Python SDK 新增 Hook 事件流提升 Agent 交互灵活性。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>开发者工具与 SDK 更新</h2>
+        <div class="section-content">Anthropic 持续完善多语言 SDK 生态，本周主要更新包括：
+
+- **Python SDK (claude-agent-sdk-python v0.1.74)**：新增 Hook 事件流功能（`include_hook_events`），支持 `PreToolUse`、`PostToolUse` 等事件订阅；新增 **Defer hook decision** 机制，允许延迟工具使用决策，提升 Agent 交互灵活性
+- **TypeScript SDK (v0.2.128/129)**：与 Claude Code 保持同步更新
+- **Ruby SDK (v1.37.0/1.38.0)**：改进 Managed Agents APIs，强化企业级集成能力
+- **CLI 工具 (anthropic-cli v1.5.0/1.6.0)**：新增 **Workload Identity Federation**、交互式 OAuth 和认证 profiles，支持 workspace 级别的 OIDC federation token exchange，降低企业部署门槛
+- **Rust SDK (connect-rust v0.4.0)**：底层错误处理优化，与 Go net/http 的 graceful shutdown 行为对齐</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.74" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.74</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.129" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.129</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.37.0" target="_blank" rel="noopener">anthropic-sdk-ruby v1.37.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-cli/releases/tag/v1.6.0" target="_blank" rel="noopener">anthropic-cli v1.6.0</a>
+            
+            <a href="https://github.com/anthropics/connect-rust/releases/tag/v0.4.0" target="_blank" rel="noopener">connect-rust v0.4.0</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Claude Code 插件能力扩展</h2>
+        <div class="section-content">**Claude Code v2.1.129** 带来插件系统的重大更新：
+
+- **新增 `--plugin-url <url>` 标志**：支持从任意 URL 动态加载插件 `.zip` 包，可用于临时扩展或企业内部分发
+- **Plugin manifests 扩展**：`themes` 和 `monitors` 配置项支持更丰富的自定义能力
+- **包管理器自动更新**：Homebrew 和 WinGet 安装的用户可启用后台自动升级，提升维护体验
+- **强制同步输出**：通过 `CLAUDE_CODE_FORCE_SYNC_OUTPUT=1` 环境变量解决 Emacs 等特殊终端的兼容问题
+
+**这意味着什么**：Claude Code 正在构建更开放的插件生态，支持企业通过私有 URL 分发定制化工具集，扩展了从个人开发工具向团队协作平台的演进路径。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.129" target="_blank" rel="noopener">claude-code v2.1.129</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>GitHub Action 集成更新</h2>
+        <div class="section-content">**claude-code-action v1.0.113** 发布，版本号对齐 Claude Code 主版本。该 Action 用于在 CI/CD 流程中集成 Claude Code 能力，适合自动化代码审查、测试生成等场景。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code-action/releases/tag/v1.0.113" target="_blank" rel="noopener">claude-code-action v1.0.113</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/05">2026-05-05</a>
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+        <a href="../../../2026/04/29">2026-04-29</a>
+        
+        <a href="../../../2026/04/25">2026-04-25</a>
+        
+        <a href="../../../2026/04/24">2026-04-24</a>
+        
+    </div>
+    
+</body>
+</html>
