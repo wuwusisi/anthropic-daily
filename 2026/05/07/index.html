@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-07</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-07</h1>
+
+    
+    <div class="summary">Anthropic 今日聚焦开发者体验：Claude Code 完成 Windows 兼容性关键修复，SDK 层面增强 API 错误追踪与权限 API 规范，为生产级 Agent 应用提供更稳定的基础。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>开发者工具更新：Windows 兼容性修复与环境控制增强</h2>
+        <div class="section-content">**Claude Code v2.1.131/132** 带来多项实用改进：
+
+- 🐛 **Windows 平台关键修复**：VS Code 扩展激活问题已解决（`createRequire` polyfill bug），Mantle 端点认证问题修复
+- 🔧 **环境变量控制**：新增 `CLAUDE_CODE_SESSION_ID` 传递至 Bash 子进程，便于 Hooks 追踪；新增 `CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1` 选项禁用全屏渲染，保持终端原生滚动历史
+- 📎 **剪贴板体验优化**：Ctrl+V 粘贴图片时显示 "Pasting…" footer 提示
+
+**这意味着什么**：对在 Windows 环境使用 Claude Code 的开发者，这是一次关键的稳定性提升；环境变量增强让 Hooks 调试和会话追踪更便捷。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.132" target="_blank" rel="noopener">Claude Code v2.1.132 Release</a>
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.131" target="_blank" rel="noopener">Claude Code v2.1.131 Release</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>SDK 层面：错误处理精细化与权限 API 完善</h2>
+        <div class="section-content">**Python SDK v0.1.76** 重点更新：
+
+- ✅ **API 错误状态可追踪**：`ResultMessage` 新增 `api_error_status` 字段，直接暴露 HTTP 状态码（429、500、529 等），便于日志分类和错误监控
+- ✅ **权限建议反序列化修复**：`ToolPermissionContext.suggestions` 现正确返回 `PermissionUpdate` 实例而非原始 dict
+
+**这意味着什么**：生产环境中调用 Claude API 时，开发者现在可以更精准地识别和处理限流、服务器错误等问题，提升 Agent 应用的健壮性。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.76" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.76</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>TypeScript SDK：文档完善与 Flag Settings 灵活性提升</h2>
+        <div class="section-content">**TypeScript SDK v0.2.132** 更新：
+
+- 📝 官方文档新增 `applyFlagSettings()` API 说明
+- 🔄 支持顶层 key 传 `null` 来清除 flag-settings 覆盖，提供了更灵活的配置重置机制
+
+**这意味着什么**：使用 TypeScript 构建 Agent 的开发者获得了更清晰的 API 指引，配置管理的灵活性也进一步提升。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.132" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.132</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/06">2026-05-06</a>
+        
+        <a href="../../../2026/05/05">2026-05-05</a>
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+        <a href="../../../2026/04/29">2026-04-29</a>
+        
+        <a href="../../../2026/04/25">2026-04-25</a>
+        
+    </div>
+    
+</body>
+</html>
