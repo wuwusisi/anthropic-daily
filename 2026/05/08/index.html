@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-08</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-08</h1>
+
+    
+    <div class="summary">Anthropic 今日聚焦 SDK 迁移：Skill 配置 API 全面废弃并转向更细粒度的 skills 选项；Claude Code 强化工作区与沙箱配置能力。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>Claude SDK 重大变更：Skill 配置 API 正式废弃</h2>
+        <div class="section-content">**Python SDK (v0.1.77) 和 TypeScript SDK (v0.2.133) 同步废弃 `'Skill'` 在 `allowedTools` 中的用法**，推荐改用 `ClaudeAgentOptions` 上的 `skills` 选项。
+
+**这意味着什么**：
+- 开发者需要迁移现有代码，新项目应直接使用 `skills` 配置
+- `skills` 选项提供更细粒度的技能控制能力
+- 外部集成 Claude Agent 的应用需尽快完成迁移以保持兼容性
+
+**其他改进**：Python SDK 优化了错误信息——此前错误结果仅返回通用 "Command failed with exit code 1"，现在会显示具体错误文本（如 "Reached maximum number of turns"），与 TypeScript SDK 行为一致</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.77" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.77</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.133" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.133</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Claude Code v2.1.133：工作区与沙箱配置增强</h2>
+        <div class="section-content">**新增 `worktree.baseRef` 设置**：支持选择新 worktree 从 `origin/<default>` (默认 `fresh`) 还是本地 `HEAD` 创建。注意：默认行为变更可能影响已有工作流。
+
+**Linux/WSL 新增托管设置**：`sandbox.bwrapPath` 和 `sandbox.socatPath` 允许指定自定义路径。
+
+**这意味着什么**：使用 worktree 功能或 agent-isolation 的团队需注意默认行为变化；自定义沙箱路径能力便于企业内网环境部署</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.133" target="_blank" rel="noopener">claude-code v2.1.133</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>内部工具链更新（connect-rust / buffa）</h2>
+        <div class="section-content">`connect-rust` v0.4.1-v0.4.2：新增 mTLS identity 示例、stream 优化、Bug 修复。
+
+`buffa` v0.5.0-v0.5.2：优化 zero-copy 序列化、修复 lint 规则、提升 CI 流程安全性。
+
+**说明**：均为内部基础设施更新，无面向外部用户的功能变化</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/connect-rust/releases/tag/v0.4.2" target="_blank" rel="noopener">connect-rust v0.4.2</a>
+            
+            <a href="https://github.com/anthropics/buffa/releases/tag/v0.5.2" target="_blank" rel="noopener">buffa v0.5.2</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/07">2026-05-07</a>
+        
+        <a href="../../../2026/05/06">2026-05-06</a>
+        
+        <a href="../../../2026/05/05">2026-05-05</a>
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+        <a href="../../../2026/04/29">2026-04-29</a>
+        
+    </div>
+    
+</body>
+</html>
