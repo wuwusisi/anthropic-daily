@@ -187,5 +187,18 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.77": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.116": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.133": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.133": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.133": true,
+  "https://github.com/anthropics/financial-services": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.7.0": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.137": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.136": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.79": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.78": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.118": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.117": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.137": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.136": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.20.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.19.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.18.0": true
 }
