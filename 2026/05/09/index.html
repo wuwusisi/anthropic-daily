@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-09</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-09</h1>
+
+    
+    <div class="summary">Anthropic SDK 生态全面支持 Managed Agents 多 Agent 协作能力，PHP/CLI/TS 多语言同步更新；Claude Code 修复 Windows 兼容性问题并增强 auto mode 安全策略；新增金融行业示例仓库。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>SDK 生态更新</h2>
+        <div class="section-content">Anthropic 多语言 SDK 同步更新，核心变化：
+
+- **PHP SDK v0.18-0.20**：三连更版本，新增 Managed Agents API 支持（multiagents、outcomes、webhooks、vault validation），以及 Workload Identity Federation、interactive OAuth 和 auth profiles
+- **CLI v1.7.0**：同步支持上述 Managed Agents 新能力
+- **TypeScript SDK v0.2.136**：新增 `resolveSettings()` alpha 功能，可直接读取 MDM 配置而不启动 CLI；正式弃用 `TodoWrite` tool，未来将迁移至 Task tools（`TaskCreate`/`TaskGet`/`TaskUpdate`/`TaskList`）
+
+**这意味着什么**：多语言 SDK 对 Managed Agents 的统一支持标志着 Anthropic 在企业级 Agent 部署能力上趋于成熟。webhooks + vault validation 的组合让多 Agent 协作在生产环境中的可靠性大幅提升。Task tools 的引入为更结构化的任务管理铺路，开发者应开始规划从 TodoWrite 到 Task tools 的迁移路径。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.20.0" target="_blank" rel="noopener">anthropic-sdk-php v0.20.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.18.0" target="_blank" rel="noopener">anthropic-sdk-php v0.18.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-cli/releases/tag/v1.7.0" target="_blank" rel="noopener">anthropic-cli v1.7.0</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.136" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.136</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Claude Code 桌面端更新</h2>
+        <div class="section-content">v2.1.136 & v2.1.137 更新要点：
+
+- **Windows 兼容性修复**：VS Code 扩展在 Windows 上的激活失败问题已解决
+- **autoMode 增强**：新增 `settings.autoMode.hard_deny` 配置，允许设置无论用户意图或 allow exceptions 都强制阻断的分类规则
+- **配置稳定性修复**：MCP servers 在 `.mcp.json`、插件和 claude.ai connectors 中的配置不会再在 `/clear` 后消失
+- **企业反馈收集**：新增 `CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL` 环境变量，支持企业通过 OpenTelemetry 捕获用户体验反馈
+
+**这意味着什么**：`hard_deny` 的引入让 auto mode 的安全策略更加精细，企业可对敏感操作设置不可绕过的防护底线。配置持久化问题的修复对依赖 MCP 集成的开发者是重要的稳定性提升。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.136" target="_blank" rel="noopener">claude-code v2.1.136</a>
+            
+            <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.137" target="_blank" rel="noopener">claude-code v2.1.137</a>
+            
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        <h2>开发者资源</h2>
+        <div class="section-content">- **financial-services 示例仓库**：Anthropic 新增金融行业参考实现，为金融场景的 AI 应用开发提供规范化模板
+
+**这意味着什么**：金融行业是 AI 应用的高价值场景，该仓库的发布表明 Anthropic 正在加深对垂直行业的支持，开发者可参考其实现模式构建合规、可靠的金融 AI 产品。</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/financial-services" target="_blank" rel="noopener">financial-services</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/08">2026-05-08</a>
+        
+        <a href="../../../2026/05/07">2026-05-07</a>
+        
+        <a href="../../../2026/05/06">2026-05-06</a>
+        
+        <a href="../../../2026/05/05">2026-05-05</a>
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+        <a href="../../../2026/04/30">2026-04-30</a>
+        
+    </div>
+    
+</body>
+</html>
