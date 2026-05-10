@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropic Daily · 2026-05-10</title>
+    <link rel="stylesheet" href="../../../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Anthropic Daily · 2026-05-10</h1>
+
+    
+    <div class="summary">Anthropic SDK 密集更新，重点强化企业级多 Agent 协作能力，新增 Webhooks、Workload Identity Federation 和 MCP 工具辅助，降低企业集成与身份验证门槛。</div>
+    
+
+    
+    
+    <div class="section">
+        <h2>开发工具与 SDK 更新</h2>
+        <div class="section-content">Anthropic 密集发布了多个开发工具的版本更新，主要集中在以下方面：
+
+**Managed Agents 能力扩展**
+- SDK 新增对 **Managed Agents multiagents** 的完整支持，包括 outcomes 回调机制
+- 新增 **webhooks** 功能，支持事件驱动架构，便于实时响应 Agent 执行状态
+- 改进了 Managed Agents APIs，为多 Agent 协作场景提供更好的编排能力
+
+**企业级集成能力**
+- 新增 **Workload Identity Federation** 支持，简化企业 SSO 场景下的身份验证
+- 支持 **OIDC federation token exchange**，可直接针对 workspace 获取凭证
+- 新增 interactive OAuth 和 auth profiles，提升开发者身份验证体验
+
+**MCP 生态扩展**
+- 新增 **MCP tool helpers**，降低 Model Context Protocol 工具集成门槛
+
+**客户端更新**
+- Claude Code、claude-agent-sdk (Python/TypeScript) 均更新至 v2.1.138，主要为内部修复
+
+这些更新意味着：**企业开发者现在可以更便捷地构建多 Agent 协作系统，通过 webhooks 实现与自有系统的深度集成，同时身份验证流程更加标准化。**</div>
+        
+        <div class="source-links">
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.41.0" target="_blank" rel="noopener">anthropic-sdk-go v1.41.0</a>
+            
+            <a href="https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.39.0" target="_blank" rel="noopener">anthropic-sdk-go v1.39.0</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.80" target="_blank" rel="noopener">claude-agent-sdk-python v0.1.80</a>
+            
+            <a href="https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.138" target="_blank" rel="noopener">claude-agent-sdk-typescript v0.2.138</a>
+            
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <script>
+    document.querySelectorAll('.section-content').forEach(function(el) {
+        el.innerHTML = marked.parse(el.textContent);
+    });
+    </script>
+
+    
+    <div class="archive">
+        历史日报:
+        
+        <a href="../../../2026/05/09">2026-05-09</a>
+        
+        <a href="../../../2026/05/08">2026-05-08</a>
+        
+        <a href="../../../2026/05/07">2026-05-07</a>
+        
+        <a href="../../../2026/05/06">2026-05-06</a>
+        
+        <a href="../../../2026/05/05">2026-05-05</a>
+        
+        <a href="../../../2026/05/02">2026-05-02</a>
+        
+        <a href="../../../2026/05/01">2026-05-01</a>
+        
+    </div>
+    
+</body>
+</html>
