@@ -219,5 +219,17 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.81": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.120": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.139": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.139": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.139": true,
+  "https://github.com/anthropics/claude-for-legal": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.40.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.39.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.8.1": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Aws-v0.4.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.20.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.7.1": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.95.2": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.3.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.99.0": true
 }
