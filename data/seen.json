@@ -231,5 +231,12 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.3.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0": true,
-  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.99.0": true
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.99.0": true,
+  "https://github.com/anthropics/claude-quickstarts": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.122": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.141": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.140": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.141": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.140": true
 }
