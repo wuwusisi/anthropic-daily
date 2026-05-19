@@ -246,5 +246,22 @@
   "https://github.com/anthropics/buffa/releases/tag/v0.6.0": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.143": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.143": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.143": true,
+  "https://github.com/anthropics/homebrew-tap": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.8.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.23.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.22.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.22.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.21.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.42.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.41.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.33.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.32.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.1": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.97.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.2": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.44.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.43.0": true
 }
