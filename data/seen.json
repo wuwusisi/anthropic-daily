@@ -306,5 +306,10 @@
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3": true,
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.34.0": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.153": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.153": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.153": true,
+  "https://github.com/anthropics/healthcare": true,
+  "https://github.com/anthropics/healthcare/releases/tag/v1.0.0": true,
+  "https://github.com/anthropics/connect-rust/releases/tag/v0.6.1": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.154": true
 }
