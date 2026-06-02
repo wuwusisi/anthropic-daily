@@ -323,5 +323,8 @@
   "https://github.com/anthropics/defending-code-reference-harness": true,
   "https://github.com/anthropics/cargo-nix-plugin": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.159": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159": true,
+  "https://github.com/anthropics/beam": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.160": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.160": true
 }
