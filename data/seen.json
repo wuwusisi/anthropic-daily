@@ -345,5 +345,22 @@
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.134": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.162": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.162": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.161": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.161": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-ce3136a9": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-f9b902b5": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-7d9c7a6f": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-bedd17a8": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-47a6bc21": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-eafb47e7": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-16b1e099": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-de7ec620": true,
+  "https://github.com/anthropics/riegeli-rs": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.90": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.137": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.136": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.165": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.163": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.165": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.163": true
 }
