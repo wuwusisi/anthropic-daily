@@ -382,5 +382,11 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.30.1": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.4.1": true,
   "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.48.0": true,
-  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.47.0": true
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.47.0": true,
+  "https://github.com/anthropics/ClaudeForFoundationModels": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.7.0": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.94": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.141": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.169": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.169": true
 }
