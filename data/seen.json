@@ -397,5 +397,19 @@
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.11.0": true,
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.29.1": true,
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.29.0": true,
-  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.28.0": true
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.28.0": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.97": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.96": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.95": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.144": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.143": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.173": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.172": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.170": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.173": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.172": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.170": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.7.1": true,
+  "https://github.com/anthropics/connect-rust/releases/tag/v0.7.0": true,
+  "https://www.darioamodei.com/post/policy-on-the-ai-exponential": true
 }
