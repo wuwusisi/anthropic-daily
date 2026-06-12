@@ -411,5 +411,18 @@
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.170": true,
   "https://github.com/anthropics/buffa/releases/tag/v0.7.1": true,
   "https://github.com/anthropics/connect-rust/releases/tag/v0.7.0": true,
-  "https://www.darioamodei.com/post/policy-on-the-ai-exponential": true
+  "https://www.darioamodei.com/post/policy-on-the-ai-exponential": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-d87f4c97": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-be0c364f": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.146": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.145": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.99": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.98": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.175": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.174": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.175": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.174": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.5.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Foundry-v0.7.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.9.0": true
 }
