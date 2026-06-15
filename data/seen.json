@@ -434,5 +434,6 @@
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.177": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.176": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.177": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.176": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.176": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-004c2b44": true
 }
