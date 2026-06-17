@@ -439,5 +439,12 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.102": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.149": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.178": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.178": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.178": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.2": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0": true,
+  "https://github.com/anthropics/tokio/releases/tag/tokio-1.52.7003%2Banthropic": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.179": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.103": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.150": true
 }
