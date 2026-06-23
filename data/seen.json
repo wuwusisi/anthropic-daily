@@ -463,5 +463,11 @@
   "https://docs.anthropic.com/en/release-notes/system-prompts#sp-d41d8cd9": true,
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.106": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.153": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.185": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.185": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.154": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.107": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.30.0": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.186": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.186": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.185": true
 }
