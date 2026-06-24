@@ -469,5 +469,19 @@
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.30.0": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.186": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.186": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.185": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.185": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.111.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.110.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.49.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.48.2": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.48.1": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.18.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.105.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.4.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.43.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.42.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.41.1": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.30.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.10.1": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.29.1": true
 }
