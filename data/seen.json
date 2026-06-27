@@ -498,5 +498,6 @@
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.193": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.191": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.190": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.193": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.193": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.159": true
 }
