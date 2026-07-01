@@ -503,5 +503,12 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.106.0": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.160": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.196": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.195": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.195": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.14.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.14.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.13.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.161": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.34.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.33.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.32.0": true
 }
