@@ -519,5 +519,14 @@
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.47.0": true,
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.46.0": true,
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.35.1": true,
-  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.35.0": true
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.35.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.1": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.35.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.34.1": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.163": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.162": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.199": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.199": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.198": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.197": true
 }
