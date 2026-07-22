@@ -613,5 +613,13 @@
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.37.0": true,
   "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.36.0": true,
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.49.0": true,
-  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.48.0": true
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.48.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.37.1": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.49.1": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.36.1": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.56.1": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.58.1": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.58.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.57.0": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.117.1": true
 }
