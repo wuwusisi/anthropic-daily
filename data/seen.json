@@ -645,5 +645,10 @@
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.180": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.218": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.217": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.216": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.216": true,
+  "https://github.com/anthropics/rayon": true,
+  "https://github.com/anthropics/buffa/releases/tag/v0.9.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.20.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.19.0": true,
+  "https://github.com/anthropics/rayon/releases/tag/rayon-core-v1.13.1000": true
 }
