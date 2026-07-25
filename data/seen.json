@@ -650,5 +650,19 @@
   "https://github.com/anthropics/buffa/releases/tag/v0.9.1": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.20.0": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.19.0": true,
-  "https://github.com/anthropics/rayon/releases/tag/rayon-core-v1.13.1000": true
+  "https://github.com/anthropics/rayon/releases/tag/rayon-core-v1.13.1000": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-2b2bb3a9": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-5884da26": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.128": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.127": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.183": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.182": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.220": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.219": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.220": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.219": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.218": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.61.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.60.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.59.0": true
 }
