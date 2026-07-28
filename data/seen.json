@@ -665,5 +665,8 @@
   "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.61.0": true,
   "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.60.0": true,
   "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.59.0": true,
-  "https://github.com/anthropics/cryptography-research-demo": true
+  "https://github.com/anthropics/cryptography-research-demo": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.39.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.38.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.37.0": true
 }
