@@ -707,5 +707,8 @@
   "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.53.0": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.1": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.116.0": true,
-  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v0.0.7": true
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v0.0.7": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.22.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.22.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.21.0": true
 }
