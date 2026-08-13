@@ -725,5 +725,11 @@
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0": true,
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.61.0": true,
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.60.0": true,
-  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.59.0": true
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.59.0": true,
+  "https://docs.anthropic.com/en/release-notes/system-prompts#sp-add3eba8": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.137": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.229": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.228": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.229": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.228": true
 }
