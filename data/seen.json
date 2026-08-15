@@ -742,5 +742,9 @@
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.4": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.3": true,
   "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.2": true,
-  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.23.0": true
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.23.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.193": true,
+  "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.62.0": true,
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.63.1": true
 }
