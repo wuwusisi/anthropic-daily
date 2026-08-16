@@ -746,5 +746,7 @@
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.193": true,
   "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.122.0": true,
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.62.0": true,
-  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.63.1": true
+  "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.63.1": true,
+  "https://github.com/anthropics/mockturtle": true,
+  "https://github.com/anthropics/amulet2": true
 }
