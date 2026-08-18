@@ -748,5 +748,10 @@
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.62.0": true,
   "https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.63.1": true,
   "https://github.com/anthropics/mockturtle": true,
-  "https://github.com/anthropics/amulet2": true
+  "https://github.com/anthropics/amulet2": true,
+  "https://github.com/anthropics/zeta-23-lean": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.139": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.194": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.234": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.233": true
 }
