@@ -759,5 +759,20 @@
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.235": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.235": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.234": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.233": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.233": true,
+  "https://github.com/anthropics/argo-cd": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.142": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.141": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.197": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.196": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.237": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.236": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.237": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.236": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.5": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.120.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.119.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.26.1": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.26.0": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.25.0": true
 }
