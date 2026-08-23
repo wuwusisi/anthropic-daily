@@ -784,5 +784,11 @@
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.238": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.199": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.239": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.239": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.239": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.201": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.200": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.241": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.240": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.241": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.240": true
 }
