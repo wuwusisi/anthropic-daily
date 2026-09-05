@@ -865,5 +865,19 @@
   "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.74": true,
   "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.73": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.30.0": true,
-  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.29.0": true
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.29.0": true,
+  "https://docs.anthropic.com/en/release-notes/overview#september-3-2026": true,
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v1.31.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.47.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.46.0": true,
+  "https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.45.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.61.0": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.60.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.19.7": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.124.0": true,
+  "https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.4.5": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.69.0": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.68.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.46.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.45.0": true
 }
