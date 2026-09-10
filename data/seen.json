@@ -892,5 +892,9 @@
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.266": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.265": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.266": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.265": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.265": true,
+  "https://github.com/anthropics/mythos-5-incident-transcript": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.267": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.220": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.267": true
 }
