@@ -896,5 +896,11 @@
   "https://github.com/anthropics/mythos-5-incident-transcript": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.267": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.220": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.267": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.267": true,
+  "https://docs.anthropic.com/en/release-notes/overview#september-10-2026": true,
+  "https://github.com/anthropics/commerce-agents": true,
+  "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.76": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.221": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.268": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.268": true
 }
