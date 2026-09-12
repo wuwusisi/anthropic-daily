@@ -902,5 +902,9 @@
   "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.76": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.221": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.268": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.268": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.268": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.222": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.269": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.269": true,
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.70.0": true
 }
