@@ -906,5 +906,9 @@
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.222": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.269": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.269": true,
-  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.70.0": true
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.70.0": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.270": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.223": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.270": true,
+  "https://www.darioamodei.com/post/we-must-pace-the-frontier": true
 }
