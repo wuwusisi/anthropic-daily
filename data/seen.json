@@ -910,5 +910,13 @@
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.270": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.223": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.270": true,
-  "https://www.darioamodei.com/post/we-must-pace-the-frontier": true
+  "https://www.darioamodei.com/post/we-must-pace-the-frontier": true,
+  "https://github.com/anthropics/claude-for-financial-advisors": true,
+  "https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.62.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.225": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.224": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.272": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.271": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.272": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.271": true
 }
