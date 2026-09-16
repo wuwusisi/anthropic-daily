@@ -918,5 +918,11 @@
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.272": true,
   "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.271": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.272": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.271": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.271": true,
+  "https://docs.anthropic.com/en/release-notes/overview#september-14-2026": true,
+  "https://github.com/anthropics/fermats-last-theorem": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.273": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.153": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.226": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.273": true
 }
