@@ -929,5 +929,17 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.154": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.227": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.274": true,
-  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.274": true
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.274": true,
+  "https://docs.anthropic.com/en/release-notes/overview#september-18-2026": true,
+  "https://github.com/anthropics/uplifting-biomolecular-modeling": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.156": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.155": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.229": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.228": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.276": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.275": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.276": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.275": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.48.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.47.0": true
 }
