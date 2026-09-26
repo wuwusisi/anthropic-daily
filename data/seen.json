@@ -958,5 +958,14 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.159": true,
   "https://docs.anthropic.com/en/release-notes/overview#september-24-2026": true,
   "https://github.com/anthropics/claude-tag-wif-gateway-sample": true,
-  "https://github.com/anthropics/claude-code/releases/tag/v2.1.282": true
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.282": true,
+  "https://github.com/anthropics/axt-verify": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.283": true,
+  "https://github.com/anthropics/axt-verify/releases/tag/v0.1.0": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.283": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.282": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.281": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.160": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.235": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.234": true
 }
