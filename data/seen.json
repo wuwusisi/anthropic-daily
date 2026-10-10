@@ -1040,5 +1040,8 @@
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.295": true,
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.77.1": true,
   "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.77.0": true,
-  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.76.0": true
+  "https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.76.0": true,
+  "https://docs.anthropic.com/en/release-notes/overview#october-9-2026": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.248": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.247": true
 }
