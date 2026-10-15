@@ -1047,5 +1047,11 @@
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.296": true,
   "https://github.com/anthropics/claude-code/releases/tag/v2.1.299": true,
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.166": true,
-  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.249": true
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.249": true,
+  "https://docs.anthropic.com/en/release-notes/overview#october-14-2026": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.167": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.6.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/GoogleCloud-v0.2.0": true,
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Foundry-v0.8.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.250": true
 }
