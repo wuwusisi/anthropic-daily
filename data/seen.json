@@ -1064,5 +1064,8 @@
   "https://github.com/anthropics/anthropic-cli/releases/tag/v1.40.0": true,
   "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.80": true,
   "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.252": true,
-  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.251": true
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.251": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.302": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.301": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.300": true
 }
