@@ -1113,5 +1113,6 @@
   "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.174": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v2.3.0": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v2.2.0": true,
-  "https://github.com/anthropics/anthropic-cli/releases/tag/v2.1.0": true
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v2.1.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.262": true
 }
