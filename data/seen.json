@@ -1160,5 +1160,7 @@
   "https://docs.anthropic.com/en/release-notes/overview#november-5-2026": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/v2.7.1": true,
   "https://github.com/anthropics/anthropic-cli/releases/tag/sandboxes-v0.1.0": true,
-  "https://github.com/anthropics/anthropic-cli/releases/tag/v2.7.0": true
+  "https://github.com/anthropics/anthropic-cli/releases/tag/v2.7.0": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.269": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.179": true
 }
