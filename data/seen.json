@@ -1178,5 +1178,13 @@
   "https://github.com/anthropics/anthropic-cli/releases/tag/v2.8.0": true,
   "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v1.0.2": true,
   "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/GoogleCloud-v1.0.2": true,
-  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v1.0.2": true
+  "https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v1.0.2": true,
+  "https://docs.anthropic.com/en/release-notes/overview#november-12-2026": true,
+  "https://github.com/anthropics/claude-code/releases/tag/v2.1.323": true,
+  "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.83": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.275": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.274": true,
+  "https://github.com/anthropics/claude-code-action/releases/tag/v1.0.273": true,
+  "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.181": true,
+  "https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.323": true
 }
